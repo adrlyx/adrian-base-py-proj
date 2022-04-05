@@ -4,6 +4,7 @@ About
 In the root folder run:
 
 python3 setup.py install
+
 pip install .
 
 Before you begin:
