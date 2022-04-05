@@ -5,15 +5,15 @@
 
 To install in the root folder:
 
-```basn
+``
 python3 setup.py install
-```
+``
 
 To install on your system:
 
-```basn
+``
 pip install .
-```
+``
 
 Before you begin:
 
