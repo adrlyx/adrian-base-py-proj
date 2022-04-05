@@ -3,8 +3,10 @@ About
 
 In the root folder run:
 
+To install in the root folder:
 python3 setup.py install
 
+To install on your system:
 pip install .
 
 Before you begin:
