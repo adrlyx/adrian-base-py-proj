@@ -5,9 +5,9 @@
 
 To install in the root folder:
 
-```bash
+``
 python3 setup.py install
-```
+``
 
 To install on your system:
 
