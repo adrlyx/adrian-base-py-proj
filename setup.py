@@ -26,6 +26,7 @@ setup(
     entry_points = {
         "console_scripts": ['my-app = app.app:main']
         },
+    include_package_data=True,
     version = version,
     description = "Python command line application template.",
     long_description = long_descr,

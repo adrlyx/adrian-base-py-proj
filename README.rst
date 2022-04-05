@@ -28,6 +28,12 @@ Rename files and folders:
 Start coding in app/app.py
 
 
+Be aware:
+
+Project will automatically include .txt files from 'app/files/'.
+This behaviour is configured in MANIFEST.in and can be edited from there.
+
+
 For development:
 
 pip install -e .
