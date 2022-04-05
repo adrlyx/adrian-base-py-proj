@@ -1,7 +1,7 @@
-About
+**About**
 ========================
 
-In the root folder run:
+**In the root folder run:**
 
 To install in the root folder:
 
