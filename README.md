@@ -1,6 +1,3 @@
-**About**
-========================
-
 # About:
 
 ## Folder structure
@@ -27,8 +24,6 @@
 └── setup.py
 ```
 
-========================
-
 ## Before you begin:
 
 Rename files and folders:
@@ -45,8 +40,6 @@ Rename files and folders:
 
 Start coding in app/*
 
-========================
-
 ## Installation:
 
 ### To install in the root folder:
@@ -61,14 +54,10 @@ To install on your system:
 pip install .
 ``
 
-========================
-
 ## Be Aware
 
 Project will automatically include .txt files from 'app/files/'.
 This behaviour is configured in MANIFEST.in and can be edited from there.
-
-========================
 
 ## Development
 
