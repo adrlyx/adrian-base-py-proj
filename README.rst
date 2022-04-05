@@ -1,15 +1,19 @@
 **About**
 ========================
 
-**In the root folder run:**
+### In the root folder run:
 
 To install in the root folder:
 
+```basn
 python3 setup.py install
+```
 
 To install on your system:
 
+```basn
 pip install .
+```
 
 Before you begin:
 
@@ -27,11 +31,7 @@ Rename files and folders:
 
 Start coding in app/app.py
 
-
-Be aware:
-
-Project will automatically include .txt files from 'app/files/'.
-This behaviour is configured in MANIFEST.in and can be edited from there.
+.. note:: Be aware: Project will automatically include .txt files from 'app/files/'. This behaviour is configured in MANIFEST.in and can be edited from there.
 
 
 For development:
