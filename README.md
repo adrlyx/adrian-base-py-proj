@@ -1,21 +1,35 @@
 **About**
 ========================
 
-### In the root folder run:
+# About:
 
-To install in the root folder:
-
-``
-python3 setup.py install
-``
-
-To install on your system:
+## Folder structure
 
 ``
-pip install .
+.
+├── LICENSE
+├── MANIFEST.in
+├── README.md
+├── app
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── app.py
+│   ├── files
+│   │   └── random.txt
+│   ├── mod_a
+│   │   ├── __init__.py
+│   │   └── mod_a.py
+│   └── mod_b
+│       ├── __init__.py
+│       └── mod_b.py
+├── scripts
+│   └── my-app-runner.py
+└── setup.py
 ``
 
-Before you begin:
+========================
+
+## Before you begin:
 
 Rename files and folders:
 
@@ -29,11 +43,44 @@ Rename files and folders:
     Change name of app:
         name = "cmdline-my-app", > change "cmdline-my-app"
 
-Start coding in app/app.py
+Start coding in app/*
 
-.. note:: Be aware: Project will automatically include .txt files from 'app/files/'. This behaviour is configured in MANIFEST.in and can be edited from there.
+========================
+
+## Installation:
+
+### To install in the root folder:
+
+``
+python3 setup.py install
+``
+
+To install on your system:
+
+``
+pip install .
+``
+
+========================
+
+## Be Aware
+
+Project will automatically include .txt files from 'app/files/'.
+This behaviour is configured in MANIFEST.in and can be edited from there.
+
+========================
+
+## Development
+
+Test code as a user:
+
+``
+python3 scripts/my-app-runner.py
+``
 
 
 For development:
 
+``
 pip install -e .
+``
