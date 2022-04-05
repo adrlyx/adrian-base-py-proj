@@ -5,7 +5,6 @@
 
 ## Folder structure
 
-``
 .
 ├── LICENSE
 ├── MANIFEST.in
@@ -25,7 +24,6 @@
 ├── scripts
 │   └── my-app-runner.py
 └── setup.py
-``
 
 ========================
 
