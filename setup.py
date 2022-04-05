@@ -30,6 +30,11 @@ setup(
     version = version,
     description = "Python command line application template.",
     long_description = long_descr,
+    # install_requires=[
+    #     'PyYAML',
+    #     'pandas==0.23.3',
+    #     'numpy>=1.14.5'
+    # ],
     author = "Adrian Lyxell",
     author_email = "adrian.lyxell@sdnit.se",
     #url = "http://github.com/wherethecodeis",
